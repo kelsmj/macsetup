@@ -73,3 +73,12 @@ echo "Installing the git_remote_branch gem for fast feature branch creating and 
 
 echo "Installing the foreman gem for serving your Rails apps in development mode ..."
   gem install foreman
+
+echo "Sourcing .profile"
+source ~/.profile
+
+echo "psql should show /usr/local/bin/psql"
+which psql
+
+echo "Check Ruby Version"
+ruby -v
